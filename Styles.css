@@ -1,0 +1,535 @@
+#title {
+    background: #537ce5;
+    color: #fff;
+    text-align: left;
+}
+
+.contain {
+    padding: 2% 10% 7%;
+    width: 300px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "fredoka one";
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+body {
+    font-family: "fredoka one";
+    text-align: center;
+}
+
+/*================================== section-A========================= */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "fredoka";
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 10px;
+    color: #fff;
+}
+
+.nav-item a {
+    font-family: "Quattrocento Sans";
+}
+
+.nav-link {
+    font-size: 1.6rem;
+    font-family: "fredoka";
+    font-weight: bold;
+}
+
+.contact-me {
+    margin-left: 70px;
+    align-items: center;
+    /* margin-left: 180px; */
+}
+
+.title-image {
+    height: 200px;
+    padding: 10px 100px 10px 150px;
+    left: 150px;
+}
+
+.intro {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+h4.tagline {
+    width: 400px;
+    margin-left: 80px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.heading {
+    padding-left: 60px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h5.intro {
+    width: 200px;
+    margin-left: 0px;
+    font-size: 1.3rem;
+}
+
+.title-btn {
+    margin-top: 80px;
+    padding: 50px;
+}
+
+a .hirelink {
+    text-decoration: none;
+    color: black;
+}
+
+a:link .hirelink {
+    text-decoration: none;
+    color: black;
+}
+
+.contain {
+    width: 100%;
+}
+
+/*================================== section-B========================= */
+
+#section-b {
+    text-align: center;
+}
+
+.me {
+    background-color: #fff;
+}
+
+.about {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3.5rem;
+}
+
+.about::before {
+    content: '';
+    background: #537ce5;
+    height: 6px;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translatey(84px);
+}
+
+.about::after {
+    content: '';
+    background: #537ce5;
+    height: 12px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-block: 40px;
+    display: block;
+    transform: translatey(8px);
+}
+
+.me {
+    height: 400px;
+    left: 350px;
+}
+
+.selfIntro {
+    padding: 60px 50px;
+    font-size: 1.6rem;
+}
+
+.selfIntro .s1 {
+    font-family: "patua one";
+    padding-bottom: 20px;
+}
+
+.selfIntro .s2 {
+    font-family: "patua one";
+    padding-bottom: 40px;
+}
+
+.top {
+    text-align: center;
+    width
+}
+
+.about-me {
+    padding-bottom: 40px;
+}
+
+/* =============================progress===================== */
+
+.progress {
+    height: 22px;
+    background: #d8d8d8;
+    border-radius: 20px;
+    overflow: visible;
+    margin-bottom: 70px;
+}
+
+.progress .progress-bar {
+    position: relative;
+    border-radius: 20px;
+    animation: animate-positive 2s;
+}
+
+.progress .progress-value {
+    position: absolute;
+    bottom: -45px;
+    right: -25px;
+    padding: 5px 14px;
+    background: #383846;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.progress .progress-value:after {
+    content: "";
+    background: #383846;
+    padding: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    left: 45%;
+    margin-left: -5px;
+}
+
+@-webkit-keyframes animate-positive {
+    0% {
+        width: 0%;
+    }
+}
+
+@keyframes animate-positive {
+    0% {
+        width: 0%;
+    }
+}
+
+.skill2 {
+    left: 60px;
+}
+
+.skillhead {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 2.5rem;
+}
+
+.skillhead::before {
+    content: '';
+    background: #537ce5;
+    height: 5px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translatey(63px);
+}
+
+.skillhead::after {
+    content: '';
+    background: #537ce5;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-block: 40px;
+    display: block;
+    transform: translatey(8px);
+}
+
+/*================================== section-D========================= */
+
+.experience {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.experience::before {
+    content: '';
+    background: #537ce5;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translatey(63px);
+}
+
+.experience::after {
+    content: '';
+    background: #537ce5;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-block: 40px;
+    display: block;
+    transform: translatey(8px);
+}
+
+.myExp {
+    height: 280px;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+.expList {
+    padding-top: 50px;
+    font-weight: 550;
+    font-size: 1.1rem;
+}
+
+.section.d {
+    padding-bottom: 100px;
+}
+
+.skill {
+    padding-bottom: 50px;
+}
+
+.tindog {
+    height: 400px;
+    width: 400px;
+    margin-left: 120px;
+}
+
+.tin {
+    font-family: "patua one";
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.headphone {
+    height: 400px;
+    width: 420px;
+    margin-left: 120px;
+}
+
+.phone {
+    font-family: "patua one";
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* ======================contact section====================== */
+
+.contact {
+    text-align: center;
+    padding: 50px;
+}
+
+.t1 {
+    padding-left: 100px;
+    font-family: "russo one";
+}
+
+.contact::before {
+    content: '';
+    background: #537ce5;
+    height: 5px;
+    width: 235px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translatey(63px);
+}
+
+.contact::after {
+    content: '';
+    background: #537ce5;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-block: 40px;
+    display: block;
+    transform: translatey(8px);
+}
+
+.text {
+    font-family: "russo one";
+    font-size: 1.2rem;
+}
+
+.form-box {
+    width: 500px;
+}
+
+.mail-box {
+    width: 450px;
+}
+
+.sub-box {
+    width: 450px;
+}
+
+.msg-box {
+    width: 450px;
+}
+
+.name-box {
+    width: 450px;
+}
+
+.button {
+    background-color: #537ce5;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 30px 10px 30px 150px;
+    cursor: pointer;
+    border-radius: 10px;
+    top: 20px;
+    font-weight: 600;
+}
+
+.ct t1 {
+    border-left: 100px;
+}
+
+p.t1 {
+    padding-top: 20px;
+}
+
+p.t2 {
+    padding-top: 0;
+}
+
+a.sendlink {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:link .sendlink {
+    text-decoration: none;
+}
+
+.frame {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/* ===================================================================== */
+
+@media screen and (max-width: 600px) {
+    /* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { */
+    #title {
+        width: 100%;
+    }
+    .logo {
+        height: 70px;
+    }
+    h1.heading {
+        font-size: 1.5rem;
+        margin: 5px;
+        padding: 0px;
+    }
+    img.t-img {
+        height: 250px;
+        left: 110px;
+    }
+    .title-image {
+        padding-left: 20px;
+        margin-left: 10px;
+        left: 10px;
+        height: 250px;
+    }
+    h5.intro {
+        width: 75px;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+        font-size: 0.8rem;
+    }
+    h4.tagline {
+        padding: 0px;
+        font-size: 1.2rem;
+        width: 250px;
+        margin: 0;
+        margin-left: 30px;
+    }
+    .contact-me {
+        margin: 30px;
+    }
+    .skill2 {
+        left: 00px;
+    }
+    .myExp {
+        height: 280px;
+        padding-left: 35px;
+        padding-top: 30px;
+    }
+    .contact {
+        text-align: center;
+        padding: 20px;
+    }
+    .t1 {
+        padding-left: 20px;
+        font-family: "russo one";
+    }
+    .t3 {
+        font-size: 0.9rem;
+    }
+    .form-box {
+        width: 300px;
+        margin: 30px;
+        padding: 10px;
+    }
+    .mail-box {
+        width: 200px;
+    }
+    .sub-box {
+        width: 200px;
+    }
+    .msg-box {
+        width: 200px;
+    }
+    .name-box {
+        width: 200px;
+    }
+    .button {
+        margin-left: 30px;
+    }
+    .tindog {
+        height: 300px;
+        width: 280px;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .headphone {
+        height: 300px;
+        width: 280px;
+        margin-left: 40px;
+    }
+}
